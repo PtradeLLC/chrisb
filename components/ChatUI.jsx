@@ -48,8 +48,8 @@ const ChatUI = ({ handleClose }) => {
               <p className="text-gray-400">
                 {message
                   ? message
-                  : `Ask anything you'd like to know about me. This tool will tell
-                you everything there is to know.`}
+                  : `Curiosity is a good thing. This tool will tell
+                you anything you'd like to know about me.`}
               </p>
             </div>
           </div>
