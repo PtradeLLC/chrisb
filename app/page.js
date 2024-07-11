@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="font-bold">Side Projects</h1>
         <div className="flex justify-center items-center m-auto">
           <p className="text-xl italic">"Idle hands are the devil's tools"</p>
-          {" "}<p className="text-xl font-thin">-They say.</p>
+          {" "}<p className="text-xl font-thin"> - They say.</p>
         </div>
         <br />
         <div className="text-xl block mb-2">Below are some of the projects keeping me busy</div>

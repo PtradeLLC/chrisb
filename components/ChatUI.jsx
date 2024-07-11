@@ -84,7 +84,7 @@ const ChatUI = ({ handleClose }) => {
             {loading ? "Sending..." : "Send"}
           </button>
           <input
-            className="w-56"
+            className="w-56 px-2"
             placeholder="Type something here"
             value={message}
             onChange={(e) => setMessage(e.target.value)}

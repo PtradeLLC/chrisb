@@ -66,7 +66,7 @@ const Hero = () => {
   };
 
   return (
-    <header className="ezy__header8 light py-14 md:py-24 bg-white text-[#373572]">
+    <header className="ezy__header8 light py-14 md:pb-24 md:pt-8 bg-white text-[#373572]">
       <div className="container px-4 relative">
         <div className="grid grid-cols-12">
           <div className="col-span-12 lg:col-span-5 xl:col-span-4 lg:order-2 mb-6 lg:mb-0 text-center lg:text-start">
