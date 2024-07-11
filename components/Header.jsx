@@ -1,6 +1,5 @@
 import { useState } from "react";
 import {
-  faTwitter,
   faGithub,
   faXTwitter,
   faLinkedinIn,
@@ -8,7 +7,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 import OpenModal from "./Modal";
-import ChatUI from "./ChatUI";
 
 const socialLinks = [
   { icon: faXTwitter, href: "https://x.com/CBitoye82981" },
@@ -25,7 +23,7 @@ const infoList = [
 const ProfileKeyInfo = ({ onAskAI }) => (
   <div>
     {infoList.map((info, i) => (
-      <p className="text-2xl mb-0" key={i}>
+      <p className="text-xl mb-0" key={i}>
         <span className="opacity-50 mr-2 font-light">{info.label}</span>
         {info.value === "Ask my AI" ? (
           <button type="button" onClick={onAskAI}>
@@ -45,7 +43,7 @@ const SocialLinks = ({ links }) => (
       <li className="mr-5" key={i}>
         <a
           href={link.href}
-          className="text-2xl opacity-70 hover:opacity-100 transition duration-300"
+          className="text-xl opacity-70 hover:opacity-100 transition duration-300"
         >
           <FontAwesomeIcon icon={link.icon} />
         </a>
@@ -66,7 +64,7 @@ const Hero = () => {
   };
 
   return (
-    <header className="ezy__header8 light py-14 md:pb-24 md:pt-8 bg-white text-[#373572]">
+    <header className="ezy__header8 light md:pb-24 md:pt-8 bg-white text-[#373572]">
       <div className="container px-4 relative">
         <div className="grid grid-cols-12">
           <div className="col-span-12 lg:col-span-5 xl:col-span-4 lg:order-2 mb-6 lg:mb-0 text-center lg:text-start">
