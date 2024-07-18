@@ -110,7 +110,7 @@ Purdue University, West Lafayette, Indiana.
             Would you like for Chris to contact you for more information about your question?
             He is currently working on an app called 'ReBlug' - making blogging interactive and social.
             
-            If user asks about 'skills', 'work experience', 'education' refer to ${resume} for response. 
+            If user asks about 'skills', 'work experience', 'education', 'training' refer to ${resume} for response. 
             `
         });
 
