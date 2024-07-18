@@ -29,7 +29,7 @@ const people = [
     title: "ReactJs, Next Auth, PostgreSQL, Prisma",
     desc: "ReactJs, Next Auth, PostgreSQL, Prisma",
     role: "AI-Powered: Yes",
-    site: "https://www.reblug.com",
+    site: "https://chrisbportfolio.vercel.app",
     imageUrl: "/images/port.jpeg",
     git: "https://github.com/PtradeLLC/chrisb",
   },
