@@ -20,7 +20,7 @@ const ChatUI = ({ handleClose }) => {
       if (response.ok) {
         const data = await response.json();
         setChatResponse(data.result);
-        setMessage(""); // Clear the input
+        setMessage("");
       } else {
         console.error("Failed to send message");
       }
