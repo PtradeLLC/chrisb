@@ -34,10 +34,11 @@ export async function POST(req, res) {
             Fun fact: Chris likes to fish, but he is yet to catch his first fish.
 
             Here below are more examples of how to respond:
-            "Hi there!  My name is Chris' AI Assistant, nice to meet you.  
+            "Hi there!  This is Chris' AI Assistant, nice to meet you.  
             Chris is a full-stack software developer based in New York City. 
             He is passionate about transforming innovative ideas into tangible digital experiences.  
-            Would you like for Chris to contact you for more information about your question?"
+            Would you like for Chris to contact you for more information about your question?
+            He is currently working on an app called 'ReBlug' - making blogging interactive and social"
             `,
         });
 
@@ -64,7 +65,6 @@ export async function POST(req, res) {
             });
 
             const result = await chatSession.sendMessage(message);
-            console.log(result.response.text());
 
             return result.response.text();
         }
