@@ -33,6 +33,16 @@ const people = [
     imageUrl: "/images/port.jpeg",
     git: "https://github.com/PtradeLLC/chrisb",
   },
+  {
+    id: 4,
+    name: "Plain Network",
+    title: "ReactJs, Next Auth, PostgreSQL, Prisma",
+    desc: "ReactJs, Next Auth, PostgreSQL, Prisma",
+    role: "AI-Powered: Yes",
+    site: "https://public-mobile-publictrades-projects.vercel.app",
+    imageUrl: "/images/plain.png",
+    git: "https://github.com/PtradeLLC/publicMobile",
+  },
 ];
 
 const SideProjects = () => {
@@ -50,7 +60,7 @@ const SideProjects = () => {
             <img
               alt="project image"
               src={person.imageUrl}
-              className="mx-auto w-80 h-64 object-cover object-top flex-shrink-0"
+              className="mx-auto w-80 object-cover object-top flex-shrink-0"
             />
             <h3 className="mt-6 text-sm font-medium text-gray-900">
               {person.name}
